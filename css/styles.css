@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* HTML Elements*/
+html,body {
+    margin: 0px;
+    text-align: center;
+	height: 100%;
+	
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    border-color: #008891;
+}
+
+/* Top Container and it's individual elements */
+.topContainer {
+    background: image('  ');
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: auto;
+}
+
+.topContainer p {
+  font-size: 500%;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topContainer p span.typed-text {
+  font-weight: normal;
+  color: black;
+}
+
+.container p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 6px;
+  animation: blink 1s infinite;
+}
+
+.topContainer p span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+
+.welcomeParagraph {
+    font-size: 200%;
+    color: #008891;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+/* Middle Container and it's individual elements */
+.middleContainer {
+   background: lightgrey;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: auto;
+    margin-bottom: 0px
+}
+.skill-row {
+    
+}
+.profileImage {
+    border-radius: 50%;
+    width: 100px;
+}
+
+
+/* Bottom Container and it's individual elements */
+.bottomContainer {
+   	background: lightgrey;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: auto;
+    margin-bottom: 0px
+}
